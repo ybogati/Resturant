@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Responsive Restaurant Website</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cedarville+Cursive&family=Lilita+One&family=Tangerine:wght@400;700&display=swap" rel="stylesheet">
+
+    <link href="https://fonts.googleapis.com/css2?family=Macondo&family=Smooch+Sans:wght@100..900&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="container">
+            <!-- Logo -->
+            <a href="#" class="logo">
+                <img src="image/logo.png" alt="Restaurant Logo">
+            </a>
+    
+            <!-- Navigation Links -->
+            <ul class="nav-links">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="menu.html">Menu</a></li>
+                <li><a href="service.html">Service</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+    
+            <!-- Mobile Menu Toggle -->
+            <button class="menu-toggle">☰</button>
+        </div>
+    </nav>
+    
+
+    <!-- Home Section -->
+    <section id="home" class="hero">
+        <div class="container1">
+            <img src="image/service.jpg" class="home" >
+        </div>
+    </section>
+      <h3 class="lilita-one-regular">Our Services</h3>
+      <h2 class="macondo-regular">Explore Our Services</h2>
+    <div class="services-container">
+        <div class="service-card">
+            <div class="service-icon">👨‍🍳</div>
+            <div class="service-title">Master Chefs</div>
+            <div class="service-description"> are highly skilled and experienced culinary professionals who excel in the art of cooking and kitchen management.</div>
+        </div>
+        <div class="service-card">
+            <div class="service-icon">🍴</div>
+            <div class="service-title">Quality Food</div>
+            <div class="service-description">refers to food that is not only delicious but also nutritious, safe, and ethically sourced.</div>
+        </div>
+        <div class="service-card">
+            <div class="service-icon">🛒</div>
+            <div class="service-title">Online Order</div>
+            <div class="service-description">has become incredibly popular, offering convenience and variety at your fingertips.</div>
+        </div>
+        <div class="service-card">
+            <div class="service-icon">🎧</div>
+            <div class="service-title">24/7 Service</div>
+            <div class="service-description">refers to businesses or platforms that operate continuously, providing uninterrupted services at any time of the day or night. </div>
+        </div>
+
+    </div>
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="footer-container">
+            <div class="column logo-about">
+                <div class="logo"><a href="index.html">
+                    <img src="image/logo.png" style="margin-left:100px" alt="Restaurant Logo">
+                </a></div>
+                <p>About Us: Welcome to our website! We are dedicated to delivering exceptional products and services tailored to meet your needs.</p>
+            </div>
+
+            <div class="column features">
+                <h2>Features</h2>
+                <ul style="margin-left:5px;">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="menu.html">Menu</a></li>
+                <li><a href="service.html">Service</a></li>
+                <li><a href="contact.html">Contact</a></li>
+                </ul>
+            </div>
+            <div class="column address">
+                <h2>Contact Us</h2>
+                <p>Address: Kathmandu, Nepal</p>
+                <p>Phone: +977-9812345678</p>
+                <p>Email: <a href="mailto:info@gmail.com">aoneres@example.com</a></p>
+            </div>
+            <div class="column social-links">
+                <h2>Follow Us</h2>
+                <a href="https://facebook.com" target="_blank">Facebook</a>
+                <a href="https://instagram.com" target="_blank">Instagram</a>
+                <a href="https://linkedin.com" target="_blank">LinkedIn</a>
+            </div>
+        </div>
+    </footer>
+    <script>
+        // Mobile Menu Toggle
+        document.querySelector('.menu-toggle').addEventListener('click', () => {
+            document.querySelector('.nav-links').classList.toggle('active');
+        });
+    </script>
+  
+</body>
+</html>
