@@ -31,7 +31,7 @@
     display: flex;
     gap: 20px;
     margin: 0;
-    padding: 0;
+    padding: 40px;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 
@@ -45,7 +45,9 @@
 .nav-links a:hover {
     color: #f0a500;
 }
-
+.menu-toggle {
+    display: none;
+  }
 /* Mobile Responsive */
 @media (max-width: 768px) {
     .menu-toggle {
